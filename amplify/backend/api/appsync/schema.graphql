@@ -1,5 +1,7 @@
 type Todo @model {
   id: ID!
+  serviceName: String!
   name: String!
-  description: String
+  link: String!
+  tooltip: String
 }
