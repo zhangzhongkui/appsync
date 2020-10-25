@@ -1,4 +1,4 @@
-type Todo @model {
+type Entity @model {
   id: ID!
   serviceName: String!
   name: String!
